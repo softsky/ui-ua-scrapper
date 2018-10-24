@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Ignoring authentication module
+auth.json
+
 # Runtime data
 pids
 *.pid
@@ -59,3 +62,4 @@ typings/
 
 # next.js build output
 .next
+/ui.ua-clients.json
