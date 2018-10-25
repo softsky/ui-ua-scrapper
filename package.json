@@ -1,0 +1,21 @@
+{
+  "name": "ui-ua-scrapper",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:softsky/ui-ua-scrapper.git",
+  "author": "Arsen A. Gutsal <a.gutsal@softsky.com.ua>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "mongodb": "^3.1.8",
+    "puppeteer": "^1.9.0",
+    "request": "^2.88.0",
+    "request-digest": "^1.0.11",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.2.0"
+  }
+}
