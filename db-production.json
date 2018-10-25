@@ -1,4 +1,5 @@
 {
+    "host":"cluster0-l3ior.mongodb.net",
     "db": "ua-ui",
     "collection": "companies",
     "username": "agutsal",
