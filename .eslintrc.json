@@ -17,7 +17,8 @@
      "describe": true,
      "it": true,
      "beforeAll": true,
-     "afterAll": true
+     "afterAll": true,
+     "logger": true
     },
     "rules": {
         "comma-dangle": ["error", "always-multiline"],
