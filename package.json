@@ -4,7 +4,11 @@
   "main": "index.js",
   "repository": "git@github.com:softsky/ui-ua-scrapper.git",
   "author": "Arsen A. Gutsal <a.gutsal@softsky.com.ua>",
-  "license": "MIT",
+    "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
   "dependencies": {
     "lodash": "^4.17.11",
     "mongodb": "^3.1.8",
@@ -14,6 +18,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "mocha": "^5.2.0"
+    "eslint": "^5.8.0",
+    "jest": "^23.6.0"
   }
 }
