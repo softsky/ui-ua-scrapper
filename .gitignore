@@ -63,3 +63,5 @@ typings/
 # next.js build output
 .next
 /ui.ua-clients.json
+/input.txt
+/whatweb-results.json
