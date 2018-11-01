@@ -1,6 +1,6 @@
 {
     "host":"cluster0-l3ior.mongodb.net",
-    "db": "ua-ui-test",
+    "db": "ui-ua-test",
     "collection": "companies",
     "username": "agutsal",
     "password": "testMongo__12",
