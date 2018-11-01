@@ -1,9 +1,7 @@
-const { crawl, crawlGoogleResults, crawlCompany } = require('./lib/crawler.js'),
+const { crawl, crawlGoogleResults, crawlCompany, crawlCompanies } = require('./lib/crawler.js'),
   { storeCompany } = require('./lib/storer.js');
 
-module.exports = { crawl, crawlGoogleResults, crawlCompany, storeCompany };
+module.exports = { crawl, crawlGoogleResults, crawlCompany, crawlCompanies, storeCompany };
 
 // DoIt!
-//crawl();
-
-
+// crawl();
